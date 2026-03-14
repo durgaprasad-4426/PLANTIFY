@@ -32,6 +32,12 @@ dependencies:
   device_preview: ^1.2.0
   flutter:
     sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/plant.png"
 
 dev_dependencies:
 
