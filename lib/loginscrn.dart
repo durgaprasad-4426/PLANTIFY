@@ -24,7 +24,12 @@ class _LoginscrnState extends State<Loginscrn> {
             child: Image.asset('assets/Image.png', fit: BoxFit.fill),
           ),
           Padding(
-            padding: const EdgeInsets.only(top: 400,left: 20, right: 20, bottom: 20),
+            padding: const EdgeInsets.only(
+              top: 400,
+              left: 12,
+              right: 12,
+              bottom: 12,
+            ),
             child: Container(
               width: 500,
               height: 500,
@@ -99,7 +104,7 @@ class _LoginscrnState extends State<Loginscrn> {
                     ),
                     SizedBox(height: 5),
                     Padding(
-                      padding: const EdgeInsets.only(left: 200),
+                      padding: const EdgeInsets.only(left: 170),
                       child: TextButton(
                         onPressed: () {},
                         child: Text(
